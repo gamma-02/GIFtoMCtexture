@@ -2,9 +2,9 @@
 
 parameters
 
-REQUIRED: \n
--i INPUT_FILE\n
-specifies an input file\n
+REQUIRED: 
+-i INPUT_FILE
+specifies an input file
 -o OUTPUT_ID
 specifies an output file name, in minecraft's resoure location path format
 -d DIRECTORY
