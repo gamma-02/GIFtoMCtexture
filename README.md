@@ -1,4 +1,4 @@
-#GIF to MC Texture
+# GIF to MC Texture
 
 parameters
 
