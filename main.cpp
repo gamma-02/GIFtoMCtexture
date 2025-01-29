@@ -10,9 +10,11 @@
 
 #include "EasyGifReader.h"
 
-#ifndef DEBUG
-#define DEBUG
-#endif
+
+
+// #ifndef DEBUG
+// #define DEBUG
+// #endif
 
 using namespace std;
 
@@ -27,7 +29,7 @@ void writeRowsToPNG(const png_bytepp& inputArray, const EasyGifReader::Frame& fr
 void deallocateRowBytePP(const png_bytepp& rowBuffer, const EasyGifReader& reader);
 
 int main(int argc, char** argv) {
-    std::cout << "Hello, World!" << std::endl;
+    // std::cout << "Hello, World!" << std::endl;
 
     if (argc < 7) {
         std::cout << "Make sure to include -i INPUT_FILE.gif, -o OUTPUT_TEXTURE_ID, and -d OUTPUT_DIRECTORY!" << std::endl;
